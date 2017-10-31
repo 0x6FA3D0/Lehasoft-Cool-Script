@@ -8,7 +8,7 @@ document.body.onkeydown = function(e){
     if(!focusItems[0]){
         stuff = focus.innerHTML;
     } else {
-        Array.from(focus.getElementsByTagName('span')).forEach(function (item){
+        Array.from(focusItems).forEach(function (item){
             if(!item.style[0]){ 
                 stuff += item.innerHTML; 
             } 
