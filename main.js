@@ -14,12 +14,12 @@ document.body.onkeydown = function(e){
             } 
         });
     }
-	if(document.getElementById('afterfocus').innerHTML == '.'){
-		stuff += '.';
-	} else {
+    if(document.getElementById('afterfocus').innerHTML == '.'){
+        stuff += '.';
+    } else {
         stuff += ' ';
-	}
-	stuff = stuff.replace("undefined", "");
+    }
+    stuff = stuff.replace("undefined", "");
     stuff = stuff.replace("o", "о");
     stuff = stuff.replace("O", "О");
     stuff = stuff.replace("e", "е");
