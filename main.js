@@ -1,10 +1,10 @@
 document.body.onkeydown = function(e){
   if (e.keyCode === 0 || e.keyCode === 32) {
     e.preventDefault()
-    var focus = document.getElementById('typefocus'); 
-    var input = document.getElementById('inputtext'); 
-    var stuff;
-    var focusItems = focus.getElementsByTagName('span');
+    var focus = document.getElementById('typefocus'), 
+        input = document.getElementById('inputtext'), 
+        stuff,
+        focusItems = focus.getElementsByTagName('span');
     if(!focusItems[0]){
         stuff = focus.innerHTML;
     } else {
